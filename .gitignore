@@ -1,0 +1,302 @@
+# Archivos sensibles
+token.*
+*.pickle
+credentials.*
+.env
+.env.*
+config.local.*
+secrets.*
+*.key
+*.pem
+*.crt
+*.pfx
+*.p12
+*.ppk
+*.gpg
+htpasswd
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Archivos de configuracion de entorno
+.env.dev
+.env.prod
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Compilados y ejecutables
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.out
+*.app
+*.a
+*.lib
+*.dylib
+*.ko
+*.obj
+*.elf
+*.test
+*.prof
+
+# Directorios de dependencias y builds
+__pycache__/
+node_modules/
+target/
+build/
+dist/
+bin/
+obj/
+out/
+*.egg-info/
+*.egg
+.gradle/
+.mvn/
+vendor/
+pkg/
+cmake-build-*/
+.vite/
+.nuxt/
+.next/
+.storybook-static/
+.cache/
+public/
+!frontend/public/
+!frontend/public/**
+
+# Build artifacts Nuxt
+frontend/.output/
+frontend/.nuxt/
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+virtualenv/
+.virtualenv/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+.vs/
+*.suo
+*.user
+*.userosscache
+.project
+.classpath
+.settings/
+.metadata/
+.recommenders/
+nbproject/
+nbbuild/
+nbdist/
+*.sublime-*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+.atom/
+*~
+\#*\#
+.\#*
+.dir-locals.el
+*.swp
+*.swo
+*.swn
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcscmblueprint
+*.apk
+*.ap_
+*.dex
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+.history/
+
+# Logs y bases de datos
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+*.dump
+dump.sql
+
+# Rust
+Cargo.lock
+*.rs.bk
+**/*.rs.bk
+
+# Java/Kotlin/Scala
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+.mtj.tmp/
+
+# JavaScript/TypeScript/Node
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.npm
+.yarn
+.pnpm
+*.tsbuildinfo
+.next/
+.nuxt/
+.cache/
+.vite/
+
+# Go
+go.sum
+
+# C/C++
+*.i
+*.s
+*.mod
+*.slo
+*.lo
+*.gch
+*.pch
+
+# C#/.NET
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Ruby
+*.gem
+.bundle/
+Gemfile.lock
+
+# PHP
+composer.lock
+vendor/
+
+# Swift
+Pods/
+Carthage/
+.build/
+
+# Elixir
+_build/
+deps/
+*.ez
+.fetch
+
+# Haskell
+.stack-work/
+*.hi
+*.chi
+
+# Dart/Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Python adicional
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+pip-log.txt
+MANIFEST
+
+# Docker
+docker-compose.override.yml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Temporales y cache
+*.tmp
+*.bak
+*.backup
+*.cache
+*.temp
+*~
+*.orig
+*.rej
+.sass-cache/
+.parcel-cache/
+
+# Coverage y testing
+coverage/
+.coverage
+*.cover
+.pytest_cache/
+.tox/
+htmlcov/
+.nyc_output/
+
+# Documentacion generada
+docs/_build/
+site/
+
+# Sistema operativo - macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.apdisk
+
+# Sistema operativo - Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.lnk
+$RECYCLE.BIN/
+
+# Sistema operativo - Linux
+.directory
+.Trash-*
+.nfs*
+
+# Jupyter y notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
