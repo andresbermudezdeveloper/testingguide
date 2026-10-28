@@ -31,20 +31,9 @@ def test_return_sum_adds_two_negative_numbers():
     assert result == -5
 
 
-def test_return_sum_rejects_floats():
-    """Verifica que la función rechaza números decimales con un TypeError."""
-    # Arrange: preparar los datos de entrada
-    a = 0.1
-    b = 0.2
-
-    # Act y Assert: ejecutar la función y comprobar que lanza el error esperado
-    with pytest.raises(TypeError):
-        return_sum(a, b)
-
-
-@pytest.mark.parametrize("a, b", [(1, 0.5), (0.5, 1)])
-def test_return_sum_rejects_mixed_floats(a, b):
-    """Verifica que la función rechaza un decimal combinado con un entero."""
+@pytest.mark.parametrize("a, b", [(0.1, 0.2), (1, 0.5), (0.5, 1)])
+def test_return_sum_rejects_floats(a, b):
+    """Verifica que la función rechaza decimales, solos o combinados con un entero."""
     # Act y Assert: ejecutar la función y comprobar que lanza el error esperado
     with pytest.raises(TypeError):
         return_sum(a, b)
