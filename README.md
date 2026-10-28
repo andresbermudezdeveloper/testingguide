@@ -1,55 +1,55 @@
 # Testing
 
-### Indice
+### Índice
 
-- [Definicion](#definicion)
+- [Definición](#definición)
 - [Tipos de tests](#test-unitarios)
   - [Test unitarios](#test-unitarios)
   - [Test funcionales](#test-funcionales)
-  - [Test de integracion](#test-de-integracion)
-  - [Test de estres](#test-de-estres)
+  - [Test de integración](#test-de-integración)
+  - [Test de estrés](#test-de-estrés)
   - [Test end to end](#test-end-to-end)
 - [TDD (Test Driven Development)](#tdd-test-driven-development)
-  - [Reglas del TDD)](#reglas-del-tdd)
+  - [Reglas del TDD](#reglas-del-tdd)
 
-## Definicion:
-Los tests en el desarrollo de software son porciones de codigo que
-prueban nuestro codigo. Existen varios tipos de tests:
+## Definición:
+Los tests en el desarrollo de software son porciones de código que
+prueban nuestro código. Existen varios tipos de tests:
 
-### Test unitarios:
-Son para probar un componente especifico de la aplicacion.
+### Tests unitarios:
+Son para probar un componente específico de la aplicación.
   
 ![unit_test.png](images/unit_test.png)
 
-### Test funcionales:
-Son para probar una funcionalidad completa de la aplicacion.
+### Tests funcionales:
+Son para probar una funcionalidad completa de la aplicación.
 
 ![functional_test.png](images/functional_test.png)
 
-### Test de integracion:
-Son para probar si la integracion de la
-aplicacion con componentes externos funciona correctamente, por ejemplo,
-integracion con APIs, Bases de datos, entre otros.
+### Tests de integración:
+Son para probar si la integración de la
+aplicación con componentes externos funciona correctamente, por ejemplo,
+integración con APIs, bases de datos, entre otros.
 
 ![integration_test.png](images/integration_test.png)
 
-### Test de estres:
-Son para probar el comportamiento de la aplicacion
+### Tests de estrés:
+Son para probar el comportamiento de la aplicación
 cuando una gran cantidad de usuarios hacen uso de ella, por ejemplo
-probar como se comporta un API cuando recibe muchas solicitudes.
+probar cómo se comporta un API cuando recibe muchas solicitudes.
 
 ![stress_test.png](images/stress_test.png)
 
-### Test end to end:
+### Tests end to end:
 Pruebas completas de un sistema, de inicio a fin.
 
 ![end_to_end_test.png](images/end_to_end_test.png)
 
 ## TDD (Test Driven Development)
-Desarrollo guiado por tests. Se trata de una tecnica de desarrollo de
-software en el que primero creamos los tests y luego creamos el codigo
-de la aplicacion que hace que pasen estos tests. Esto con el fin de
-garantizar que nuestra aplicacion realice lo que debe hacer.
+Desarrollo guiado por tests. Se trata de una técnica de desarrollo de
+software en el que primero creamos los tests y luego creamos el código
+de la aplicación que hace que pasen estos tests. Esto con el fin de
+garantizar que nuestra aplicación realice lo que debe hacer.
 
 El TDD se basa en el ciclo Red-Green-Refactor:
 
@@ -63,8 +63,8 @@ El TDD se basa en el ciclo Red-Green-Refactor:
 
 ![tdd_rules.png](images/tdd_rules.png)
 
-- Solo escribiras codigo de test hasta que falle.
+- Solo escribirás código de test hasta que falle.
 <br><br>
-- Solo escribiras codigo de produccion si es para pasar un test que falla.
+- Solo escribirás código de producción si es para pasar un test que falla.
 <br><br>
 - No escribirás más código del necesario para hacer pasar el test.
